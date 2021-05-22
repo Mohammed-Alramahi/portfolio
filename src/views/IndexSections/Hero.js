@@ -46,54 +46,25 @@ class Hero extends React.Component {
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center" lg="6">
-                    <img
-                      alt="..."
-                      className="img-fluid"
-                      src={reactWhite}
-                      style={{ width: "200px" }}
-                    />
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                      An Ambitious full stack software engineer
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
-                        className="btn-white btn-icon mb-3 mb-sm-0"
-                        color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        size="lg"
-                      >
-                        <span className="btn-inner--icon mr-1">
-                          <i className="ni ni-cloud-download-95" />
-                        </span>
-                        <span className="btn-inner--text">Download React</span>
-                      </Button>{" "}
-                      <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="github"
-                        href="https://github.com/creativetimofficial/argon-design-system-react"
+                        href="https://www.linkedin.com/in/mohammed-alramahi/"
                         size="lg"
                         target="_blank"
                       >
                         <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-github" />
+                          <i className="fa fa-linkedin" />
                         </span>
                         <span className="btn-inner--text">
-                          <span className="text-warning mr-1">Star us</span>
-                          on Github
+                          <span className="text-primary mr-1">Follow Me</span>
+                          on LinkedIn
                         </span>
                       </Button>
-                    </div>
-                    <div className="mt-5">
-                      <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
-                      </small>
-                      <img
-                        alt="..."
-                        className="ml-1"
-                        style={{ height: "28px" }}
-                        src={creative}
-                      />
                     </div>
                   </Col>
                 </Row>

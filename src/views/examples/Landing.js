@@ -131,7 +131,7 @@ class Landing extends React.Component {
                     className="fill-white"
                     points="2560 0 2560 100 0 100"
                   />
-                </svg>
+                </svg>  
               </div>
             </section>
             {/* 1st Hero Variation */}
